@@ -1,8 +1,9 @@
 body {
-    background: linear-gradient(#ffff, #000000);
+    background: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 .calc {
@@ -11,6 +12,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 28%;
     background: #fff;
     text-align: center;
     padding: 30px;
@@ -20,4 +22,5 @@ body {
 #btn {
     border-radius: 10px;
     font-size: 20px;
+    margin-top: 10px;
 }
